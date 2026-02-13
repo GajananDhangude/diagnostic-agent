@@ -2,7 +2,7 @@ from src.state import DDRState
 from langgraph.graph import StateGraph , START , END
 from src.agents.pdf_extractor import pdf_extraction_agent
 from src.agents.data_extractor import data_extraction_agent
-from src.agents.report_geneerator import report_generation_agent
+from src.agents.report_generator import report_generation_agent
 from src.agents.file_writer import markdown_writer
 
 

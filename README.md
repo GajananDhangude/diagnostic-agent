@@ -15,7 +15,7 @@ The final report will be saved in the outputs/ directory as DDR_Report.md.
 
 
 ## 🤖 Graph Workflow
-Extract: Parallel nodes extract raw text from both PDFs.
-Analyze: A structured agent parses text into a DDRReport object.
-Generate: A specialized agent writes the Markdown narrative.
-Write: A local file writer node saves the output safely to disk. 
+*  **Extract: Parallel nodes extract raw text from both PDFs.
+*  **Analyze: A structured agent parses text into a DDRReport object.
+*  **Generate: A specialized agent writes the Markdown narrative.
+*  **Write: A local file writer node saves the output safely to disk. 

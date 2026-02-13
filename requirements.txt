@@ -1,0 +1,12 @@
+# Core Dependencies
+langchain
+langchain-ollama
+langchain-google-genai
+langgraph
+pydantic
+pydantic-settings
+
+pdfplumber
+PyPDF2
+pypdf
+python-dotenv

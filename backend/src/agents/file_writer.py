@@ -5,7 +5,14 @@ from pathlib import Path
 def markdown_writer(state: DDRState):
     output_dir = Path("outputs")
     output_dir.mkdir(exist_ok=True)
-    file_name = output_dir / "DDR_Report.md"
+    
+
+    user_input = input("Enter the desired filename (e.g., MyReport): ").strip()
+
+    if not user_input:
+        user_input = "DDR_Report"
+
+    file_name = output_dir / f"{user_input}.md"
 
     raw_content = state.get('markdown_content', "")
 
